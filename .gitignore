@@ -1,10 +1,10 @@
-# Maven
-target/
+# Maven build output
+**/target/
 
-# Logs
-*.log
-
-# IDE files (optional)
+# IDE
 .idea/
 *.iml
 .vscode/
+
+# logs
+*.log
