@@ -10,6 +10,8 @@ public class App {
             // Add employee
             Employee e1 = new Employee("John Doe", "john@example.com", 50000);
             dao.addEmployee(e1);
+            Employee e2 = new Employee("Vikshitha", "Vikki@example.com", 50000);
+            dao.addEmployee(e2);
             System.out.println("Employee Added Successfully!");
 
             // Fetch employees
