@@ -1,0 +1,11 @@
+<web-app>
+<display-name>Employee Web Application</display-name>
+<servlet>
+<servlet-name>EmployeeServlet</servlet-name>
+<servlet-class>com.skillnext2.EmployeeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>EmployeeServlet</servlet-name>
+<url-pattern>/saveEmployee</url-pattern>
+</servlet-mapping>
+</web-app>
