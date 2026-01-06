@@ -2,7 +2,7 @@ package com.skillnext2;
 
 import java.util.Scanner;
 
-public class Fibonacci {
+public class App {
 
     public static void main(String[] args) {
 

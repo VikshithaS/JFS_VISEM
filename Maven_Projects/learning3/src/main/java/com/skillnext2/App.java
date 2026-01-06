@@ -2,7 +2,7 @@ package com.skillnext2;
 
 import java.util.Scanner;
 
-public class PrimeNumber {
+public class App {
 
     public static void main(String[] args) {
 
