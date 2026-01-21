@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+  <class name="Course" table="course" dynamic-insert="true" dynamic-update="true">
+    <id name="cid" column="cid" length="5">
+      <generator class="assigned"/>
+    </id>
+    <property name="cname" column="cname" length="255"/>
+    <property name="ccontent" column="ccontent" length="255"/>
+    <property name="duration" column="duration" length="5"/>
+  </class>
+</hibernate-mapping>
